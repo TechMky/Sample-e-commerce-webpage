@@ -1,0 +1,31 @@
+<?php 
+	$conn = mysqli_connect("localhost","root","","vtc") or die("Unable to connect");
+	$name=$_POST['name'];
+	$email=$_POST['email'];
+	$pass=$_POST['pass'];
+	$add=$_POST['add'];
+	$city=$_POST['city'];
+	$pin=$_POST['pin'];
+	$contact=$_POST['contact'];
+	$sql = "INSERT INTO persons (name, email, password,address, contact, city)
+			VALUES ('$name', '$email', '$pass', '$add','$contact', '$city')";
+	mysqli_query($conn, $sql) or die("Error in Insertion: ".mysqli_error($conn));		
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/e.png">
+	<title>Sign Up</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mycss.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid bodymargin">
+	<h4>Success!!</h4>
+</div>
+</body>
+</html>

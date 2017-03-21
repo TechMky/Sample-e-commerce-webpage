@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="images/e.png">
+	<title>Welcome to E-store</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/mycss.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<style>
+	img{
+		width: 120px;
+		height: 120px;
+	}
+	</style>
+</head>
+<body>
+<!--nav bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+      <a class="navbar-brand" href="index.html">E-Store</a>
+</div>
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="#LoginModal" data-toggle="modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign up</a></li>
+	<li><a href="aboutus.html"><span class="glyphicon glyphicon-tasks"></span> About Us</a></li>
+	<li><a href="contactus.html"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></li>
+</ul>
+</div>
+</nav>
+
+<!--Body Content-->
+<div class="container-fluid" style="margin-top: 60px">
+	<div class="row">
+  		<div class="col-md-4">
+  			<div class="panel panel-default">
+  				<div class="panel-heading" style="text-align: center;">Mobile 1</div>
+  				<div class="panel-body"><img src="images/mob1.jpg" class="img-responsive center-block">
+  				<p>3Gb RAM, Octa-Core, Full HD,13MP and 5MP,3300mah Rs.11,999</p>
+  				</div>
+  				<div class="panel-footer"><button type="button" class="btn btn-primary" style="width: 100%">Order Now</button></div>
+  			</div>
+		</div>
+
+  		<div class="col-md-4">
+  			<div class="panel panel-default">
+  				<div class="panel-heading" style="text-align: center;">Mobile 2</div>
+  				<div class="panel-body"><img src="images/mob2.jpg" class="img-responsive center-block">
+  				<p>3/2Gb RAM, Hexa-Core,Full HD, 16MP and 5MP,4050mah Rs.9999/Rs11,999</p>
+  				</div>
+  				<div class="panel-footer"><button type="button" class="btn btn-primary" style="width: 100%">Order Now</button></div>
+		</div>
+		</div>
+  		
+  		<div class="col-md-4">
+  		<div class="panel panel-default">
+  			<div class="panel-heading" style="text-align: center;">Mobile 3</div>
+  			<div class="panel-body"><img src="images/mob3.jpg" class="img-responsive center-block">
+  			<p>3Gb RAM, 13MP and 5MP,2750mah, Dual 4G, AMOLED,Rs14,999</p>
+  			</div>
+  			<div class="panel-footer"><button type="button" class="btn btn-primary" style="width: 100%">Order Now</button></div>
+		</div>
+		</div>
+	</div>
+
+	<div class="row">
+  		<div class="col-md-4">
+  			<div class="panel panel-default">
+  				<div class="panel-heading" style="text-align: center;">Mobile 4</div>
+  				<div class="panel-body"><img src="images/mob4.jpg" class="img-responsive center-block">
+  				<p>2Gb RAM, Quad-Core,, 16MP and 5MP,2900mah Rs.8750</p>
+  				</div>
+  				<div class="panel-footer"><button type="button" class="btn btn-primary" style="width: 100%">Order Now</button></div>
+  			</div>
+		</div>
+
+  		<div class="col-md-4"><div class="panel panel-default">
+  				<div class="panel-heading" style="text-align: center;">Mobile 5</div>
+  				<div class="panel-body"><img src="images/mob5.jpg" class="img-responsive center-block">
+  				<p>3Gb RAM, Octa-Core,Full HD, Dual Tone LED, 13MP and 5MP,5000mah Rs.12,999</p></div>
+  				<div class="panel-footer"><button type="button" class="btn btn-primary" style="width: 100%">Order Now</button></div>
+		</div>
+		</div>
+  		
+  		<div class="col-md-4">
+  		<div class="panel panel-default">
+  			<div class="panel-heading" style="text-align: center;">Mobile 6</div>
+  			<div class="panel-body"><img src="images/mob6.jpg" class="img-responsive center-block">
+  			<p>12MP, 4K, 2GB RAM, iOS 13, FULL HD, Rs.49,999</p></div>
+  			<div class="panel-footer"><button type="button" class="btn btn-primary" style="width: 100%">Order Now</button></div>
+		</div>
+		</div>
+	</div>
+
+</div>
+
+<!--FOOTER-->
+<div class="container-fluid" style="background-color: #262626;">
+	<div class="row footer-margin" >
+		<div class="col-md-4">
+			<h3 style="color: #ffffff;">Information</h3>
+			<a href="aboutus.html" style="color: #ffffff;">About Us</a><br>
+			<a href="contactus.html" style="color: #ffffff;">Contact Us</a>
+		</div>
+		<div class="col-md-4">
+			<h3 style="color: #ffffff;">My Account</h3>
+			<!--<p style="color: #ffffff;" data-toggle="modal" data-target=#LoginModal>
+			Log In</p>-->
+			<a href="#LoginModal" data-toggle="modal" style="color: white">Log In</a><br>
+			<a href="signup.php" style="color: #ffffff;">Sign Up</a>
+			<!-- For anchor tags use HREF to point target modal -->
+			<!-- EXAMPLE:
+
+			< Buttons 
+				<button type="button" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+				Links 
+				<a data-toggle="modal" href="#myModal">Open Modal</a>
+
+				Other elements 
+				<p data-toggle="modal" data-target="#myModal">Open Modal</p>
+				
+
+				-->
+		</div>
+		<div class="col-md-4">
+			<h3 style="color: #ffffff;">Contact Us</h3>
+			<p style="color: #ffffff;">Contact: +91-123-451326</p>
+		</div>
+	</div>
+</div>
+
+
+      <!-- Modal here-->	
+<div id="LoginModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">LOGIN</h4>
+      </div>
+      <div class="modal-body">
+      	<p>Don't have an account? <a href="signup.html">Register</a></p>
+      	<div class="form-group">
+      		<input type="email" class="form-control" id="InputEmail1" placeholder="Email">
+      	</div>
+      	<div class="form-group">
+      		<input type="password" class="form-control" id="InputPassword" placeholder="Password">
+      	</div>
+      </div>
+      <div class="modal-footer">
+        <input style="float:left;" class="btn btn-primary" class="text-left"  type="submit" data-dismiss="modal" value="Login"></input>
+        <a href="#" style="float: right;"><p>Forgot password?</p></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/e.png">
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mycss.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--nav bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+      <a class="navbar-brand" href="index.html">E-Store</a>
+</div>
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="#LoginModal" data-toggle="modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign up</a></li>
+	<li><a href=aboutus.html><span class="glyphicon glyphicon-tasks"></span> About Us</a></li>
+	<li><a href="contactus.html"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></li>
+</ul>
+</div>
+</nav>
+
+<!--Body Content-->
+<div class="container-fluid bodymargin" >
+	<div class="row">
+		<div class="col-sm-6 col-md-6 col-lg-6" style="width: 70%">
+			<h3>LIVE SUPPORT</h3>
+			<h4>24 hours | 7 days a week | 365 days a year --> Live Techincal Support.</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan nisl nibh, sit amet rutrum libero ultrices a. Nunc purus odio, auctor vitae ultricies non, tincidunt et risus. Aliquam erat volutpat. Cras augue ex, egestas vel nisi ac, vulputate accumsan nulla. Suspendisse urna ligula, gravida molestie pretium in, semper ut lorem. Duis dolor nunc, luctus consectetur tortor maximus, vulputate volutpat tellus. Praesent volutpat arcu et eros hendrerit, ultricies faucibus ex consequat. Nunc eleifend aliquam lacinia. Cras nec aliquet eros. Phasellus feugiat metus vitae imperdiet finibus. Maecenas maximus a neque sit amet lobortis. Integer quis velit nec tortor sodales tincidunt at sed augue. Sed ultrices sapien in nisl vestibulum ullamcorper. Ut condimentum sit amet sem ut imperdiet.</p>
+		</div>
+		<div class="col-sm-6 col-md-6 col-lg-6" style="width: 30%">
+			<img src="images/contact-us.jpg" class="img-responsive img-circle">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 col-md-6 col-lg-6">
+			<h3>CONTACT US</h3>
+			<form role="form">
+				<div class="form-group">
+					<label for="name">Name:</label>
+    				<input type="text" class="form-control" id="name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email address:</label>
+    				<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label>
+					<textarea class="form-control" rows="5" id="message"></textarea>					
+				</div>
+				<div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-sm-6 col-md-6 col-lg-6">
+			<h3>COMPANY INFORMATION:</h3>
+			<h4>Headquarters:</h4>
+			<p>123, Walnut Street,<br> 
+			Coram, NY 11727, USA.</p>
+			<h4>Email:</h4>
+			<p>support@estore.com</p>
+			<h4>Phonne:</h4>
+			<p>(795) 884-0218<br>(706) 530-9417</p>
+			<p>Everyday form 10:00 AM to 6:00 PM</p>
+			<p>Follow us at twitter @thestore for regualr updates.</p>
+		</div>
+	</div>
+</div>
+
+
+
+<!--FOOTER-->
+<div class="container-fluid" style="background-color: #262626;">
+	<div class="row footer-margin" >
+		<div class="col-md-4">
+			<h3 class="text-white">Information</h3>
+			<a href="aboutus.html" class="text-white">About Us</a><br>
+			<a href="contactus.html" class="text-white">Contact Us</a>
+		</div>
+		<div class="col-md-4">
+			<h3 class="text-white">My Account</h3>
+			<!--<p style="color: #ffffff;" data-toggle="modal" data-target=#LoginModal>
+			Log In</p>-->
+			<a  class="text-white" href="#LoginModal" data-toggle="modal">Log In</a><br>
+			<a href="signup.html" class="text-white">Sign Up</a>
+			<!-- For anchor tags use HREF to point target modal -->
+			<!-- EXAMPLE:
+
+			< Buttons 
+				<button type="button" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+				Links 
+				<a data-toggle="modal" href="#myModal">Open Modal</a>
+
+				Other elements 
+				<p data-toggle="modal" data-target="#myModal">Open Modal</p>
+				
+
+				-->
+		</div>
+		<div class="col-md-4">
+			<h3 class="text-white">Contact Us</h3>
+			<p class="text-white">Contact: +91-123-451326</p>
+		</div>
+	</div>
+</div>
+
+
+      <!-- Modal here-->	
+<div id="LoginModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">LOGIN</h4>
+      </div>
+      <div class="modal-body">
+      	<p>Don't have an account? <a href="signup.html">Register</a></p>
+      	<div class="form-group">
+      		<input type="email" class="form-control" id="InputEmail1" placeholder="Email">
+      	</div>
+      	<div class="form-group">
+      		<input type="password" class="form-control" id="InputPassword" placeholder="Password">
+      	</div>
+      </div>
+      <div class="modal-footer">
+        <input style="float:left;" class="btn btn-primary" class="text-left"  type="submit" data-dismiss="modal" value="Login"></input>
+        <a href="#" style="float: right;"><p>Forgot password?</p></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

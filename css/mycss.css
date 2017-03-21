@@ -1,0 +1,24 @@
+.footer-margin{
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+.bodymargin{
+	margin-top: 60px;
+	margin-bottom: 20px;
+
+}
+.text-white{
+	color: #ffffff;
+}
+.right-allign{
+	float: right;
+}
+
+.center-allign{
+	text-align: center;
+}
+.center-block{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
